@@ -24,7 +24,7 @@ Praktikum 5 mempelajari dasar-dasar bahasa pemrograman **JavaScript** serta inte
 ### 1. Output, Aritmetika, & Console (`index.html` & `script.js`)
 * **Penjelasan:** Menampilkan teks "Hello World" ke elemen HTML via manipulasi DOM (`textContent`), mencetak log pesan ke Console browser, serta mengeksekusi fungsi aritmetika dasar (`operasiDasar(9, 4)`).
 * **Screenshot Hasil:**  
-  ![Output dan Console](image/s1.png)
+  ![Output dan Console](image/s1.PNG)
 
 ### 2. Dialog Interaktif Prompt & Alert (Latihan 2)
 * **Penjelasan:** Meminta input nama pengguna melalui kotak dialog `prompt()` dan menampilkan kembali pesan sapaan khusus menggunakan pesan peringatan `alert()`.
@@ -59,22 +59,22 @@ Praktikum 5 mempelajari dasar-dasar bahasa pemrograman **JavaScript** serta inte
 ### 5. Form Bilangan Genap atau Ganjil (Latihan 6)
 * **Penjelasan:** Membuat form input angka bulat yang memvalidasi masukan serta memeriksa apakah bilangan tersebut genap atau ganjil menggunakan operator modulus (`angka % 2 === 0`).
 * **Screenshot Hasil:**  
-  ![Periksa Bilangan Genap Ganjil](image/s2.png)
+  ![Periksa Bilangan Genap Ganjil](image/s2.PNG)
 
 ### 6. Mengubah Warna Latar Halaman (Latihan 7)
 * **Penjelasan:** Memanfaatkan fungsi berparameter untuk memodifikasi properti gaya CSS latar belakang halaman web secara dinamis (`document.body.style.backgroundColor`) saat tombol diklik.
 * **Screenshot Hasil:**  
-  ![Ubah Warna Latar Hijau](image/s3.png)
+  ![Ubah Warna Latar Hijau](image/s3.PNG)
 
 ### 7. DOM & Checkbox Menu Makanan (Latihan 8)
 * **Penjelasan:** Menggunakan *event listener* `change` pada elemen *checkbox* daftar menu makanan untuk menghitung total harga secara otomatis dan memformatnya ke format mata uang Indonesia.
 * **Screenshot Hasil:**  
-  ![Daftar Menu Checkbox](image/s4.png)
+  ![Daftar Menu Checkbox](image/s4.PNG)
 
 ### 8. Mini Project: Kalkulator Nilai Mahasiswa
 * **Penjelasan:** Membangun kalkulator penilaian yang menerima input nilai Tugas, UTS, dan UAS, melakukan validasi rentang angka (0-100), menghitung Nilai Akhir berbobot, menentukan Predikat (A-E), serta menampilkan Status Kelulusan langsung pada halaman HTML.
 * **Screenshot Hasil:**  
-  ![Mini Project Kalkulator Nilai](image/s5.png)  
+  ![Mini Project Kalkulator Nilai](image/s5.PNG)  
 
 * **Pengujian Variasi Nilai Kalkulator:**  
   * **Pengujian 1 (Nilai Akhir: 91.10 - Predikat A):**  
@@ -87,17 +87,17 @@ Praktikum 5 mempelajari dasar-dasar bahasa pemrograman **JavaScript** serta inte
 ### 9. Eksperimen Mandiri 7: Tabel Perkalian 7
 * **Penjelasan:** Membuat struktur perulangan `for` di dalam file `script.js` untuk mencetak tabel perkalian angka 7 secara berurutan dari 1 sampai 10 ke dalam Console browser.
 * **Screenshot Hasil:**  
-  ![Tabel Perkalian 7 Console](image/s6.png)
+  ![Tabel Perkalian 7 Console](image/s6.PNG)
 
 ### 10. Eksperimen Mandiri 8: Fungsi `cekGenap(angka)`
 * **Penjelasan:** Membuat fungsi khusus bernama `cekGenap(angka)` yang mengembalikan nilai boolean `true` jika bilangan bernilai genap dan `false` jika ganjil, lalu mengujinya melalui Console.
 * **Screenshot Hasil:**  
-  ![Fungsi Cek Genap Console](image/s7.png)
+  ![Fungsi Cek Genap Console](image/s7.PNG)
 
 ### 11. Eksperimen Mandiri 9: Validasi Form Kosong
 * **Penjelasan:** Menambahkan fungsi validasi pada form input teks agar memberikan peringatan berwarna merah jika pengguna mencoba memvalidasi dalam keadaan kolom kosong.
 * **Screenshot Hasil:**  
-  ![Validasi Form Kosong](image/s8.png)
+  ![Validasi Form Kosong](image/s8.PNG)
 
 ### 12. Eksperimen Mandiri 10: Tambah Pilihan Menu Makanan
 * **Penjelasan:** Memperluas daftar menu makanan pada Latihan 8 dengan menambahkan dua pilihan menu baru (Nasi Putih dan Es Teh Manis) serta menguji perhitungan total harga secara dinamis.
