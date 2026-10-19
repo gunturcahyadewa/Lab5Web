@@ -29,30 +29,30 @@ Praktikum 5 mempelajari dasar-dasar bahasa pemrograman **JavaScript** serta inte
 ### 2. Dialog Interaktif Prompt & Alert (Latihan 2)
 * **Penjelasan:** Meminta input nama pengguna melalui kotak dialog `prompt()` dan menampilkan kembali pesan sapaan khusus menggunakan pesan peringatan `alert()`.
 * **Screenshot Dialog Box:**  
-  * **Input Nama (`say.PNG`):**  
+  * **Input Nama:**  
     ![Input Nama Prompt](image/say.PNG)  
     *Pengguna memasukkan nama "Guntur" pada kotak dialog `prompt()`.*
-  * **Output Alert (`say1.PNG`):**  
+  * **Output Alert:**  
     ![Output Alert Sapaan](image/say1.PNG)  
     *Browser menampilkan dialog `alert()` berisi pesan sapaan "Halo, Guntur!".*
 
 ### 3. Percabangan Kondisi Nilai Kelulusan (Latihan 4)
 * **Penjelasan:** Meminta input angka nilai (0-100) dari pengguna via `prompt()`, lalu menguji kondisi logika `if (nilai >= 60)` untuk menentukan status kelulusan yang ditampilkan via `alert()`.
 * **Screenshot Dialog Box:**  
-  * **Input Nilai (`say2.PNG`):**  
+  * **Input Nilai:**  
     ![Input Nilai Prompt](image/say2.PNG)  
     *Pengguna memasukkan angka nilai "95" pada kotak dialog `prompt()`.*
-  * **Output Status Kelulusan (`say3.PNG`):**  
+  * **Output Status Kelulusan:**  
     ![Output Status Kelulusan Alert](image/say3.PNG)  
     *Browser menampilkan dialog `alert()` bertuliskan "Lulus" karena nilai memenuhi kondisi `>= 60`.*
 
 ### 4. Percabangan Multi-Kondisi Switch Case (Latihan 5)
 * **Penjelasan:** Menggunakan struktur percabangan `switch` untuk mencocokkan input angka (1-5) dari `prompt()` dengan nama bilangan terbilang yang sesuai via `alert()`.
 * **Screenshot Dialog Box:**  
-  * **Input Angka 1-5 (`say4.PNG`):**  
+  * **Input Angka 1-5:**  
     ![Input Angka Prompt](image/say4.PNG)  
     *Pengguna memasukkan angka "4" pada dialog `prompt()`.*
-  * **Output Terbilang (`say5.PNG`):**  
+  * **Output Terbilang:**  
     ![Output Terbilang Alert](image/say5.PNG)  
     *Browser mencocokkan `case 4` dan menampilkan dialog `alert()` bertuliskan "Bilangan empat".*
 
