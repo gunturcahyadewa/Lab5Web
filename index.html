@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Praktikum JavaScript Dasar - Lengkap</title>
+</head>
+<body>
+    <h1>Praktikum 5: JavaScript Dasar dan Manipulasi HTML</h1>
+
+    <!-- Latihan 1: Menampilkan Output -->
+    <section>
+        <h3>Latihan 1: Menampilkan Output</h3>
+        <p id="pesan">Konten awal.</p>
+    </section>
+
+    <hr>
+    <!-- Latihan 2: Alert dan Prompt -->
+    <section>
+        <h3>Latihan 2: Alert dan Prompt</h3>
+        <p><i>(Dijalankan otomatis lewat pop-up jika script aktif)</i></p>
+    </section>
+
+    <hr>
+    <!-- Latihan 3: Function dan Operasi Aritmetika -->
+    <section>
+        <h3>Latihan 3: Function & Operasi Aritmetika</h3>
+        <p><i>(Hasil perhitungan tampil di Console browser)</i></p>
+    </section>
+
+    <hr>
+    <!-- Latihan 4: Seleksi Kondisi if-else -->
+    <section>
+        <h3>Latihan 4: Seleksi Kondisi if-else</h3>
+        <p><i>(Dijalankan otomatis lewat prompt jika script aktif)</i></p>
+    </section>
+
+    <hr>
+    <!-- Latihan 5: Seleksi Kondisi switch -->
+    <section>
+        <h3>Latihan 5: Seleksi Kondisi switch</h3>
+        <p><i>(Dijalankan otomatis lewat prompt jika script aktif)</i></p>
+    </section>
+
+    <hr>
+    <!-- Latihan 6: Form Bilangan Genap atau Ganjil -->
+    <section>
+        <h3>Latihan 6: Periksa Bilangan Genap / Ganjil</h3>
+        <label for="bilangan">Masukkan bilangan bulat: </label>
+        <input type="number" id="bilangan" step="1">
+        <button type="button" onclick="cekBilangan()">Periksa</button>
+        <p id="hasilBilangan"></p>
+    </section>
+
+    <hr>
+    <!-- Latihan 7: Mengubah Warna Halaman -->
+    <section>
+        <h3>Latihan 7: Ubah Warna Latar Halaman</h3>
+        <button type="button" onclick="ubahWarnaLatar('lightgreen')">Latar Hijau</button>
+        <button type="button" onclick="ubahWarnaLatar('white')">Latar Putih</button>
+        <button type="button" onclick="ubahWarnaLatar('lightyellow')">Latar Kuning</button>
+    </section>
+
+    <hr>
+    <!-- Latihan 8 & Eksperimen Mandiri 10: DOM dan Checkbox Menu Makanan -->
+    <section>
+        <h3>Latihan 8: DOM dan Checkbox Menu Makanan</h3>
+        <label><input type="checkbox" class="menu" value="5000"> Ayam Goreng Rp5.000</label><br>
+        <label><input type="checkbox" class="menu" value="500"> Tempe Rp500</label><br>
+        <label><input type="checkbox" class="menu" value="2500"> Telur Dadar Rp2.500</label><br>
+        <label><input type="checkbox" class="menu" value="3000"> Nasi Putih Rp3.000</label><br>
+        <label><input type="checkbox" class="menu" value="2000"> Es Teh Manis Rp2.000</label><br>
+        <p>Total: Rp<span id="total">0</span></p>
+    </section>
+
+    <hr>
+    <!-- Mini Project: Kalkulator Nilai Mahasiswa -->
+    <section>
+        <h3>Mini Project: Kalkulator Nilai Mahasiswa</h3>
+        <label>Nilai Tugas (0-100): <input type="number" id="inputTugas" min="0" max="100"></label><br><br>
+        <label>Nilai UTS (0-100): <input type="number" id="inputUts" min="0" max="100"></label><br><br>
+        <label>Nilai UAS (0-100): <input type="number" id="inputUas" min="0" max="100"></label><br><br>
+        <button type="button" onclick="jalankanMiniProject()">Hitung Nilai Akhir</button>
+        <div id="hasilMiniProject" style="margin-top: 15px;"></div>
+    </section>
+
+    <hr>
+    <!-- Eksperimen Mandiri 9: Validasi Form Kosong -->
+    <section>
+        <h3>Eksperimen Mandiri 9: Validasi Form Kosong</h3>
+        <label for="inputEksperimen9">Masukkan Data: </label>
+        <input type="text" id="inputEksperimen9">
+        <button type="button" onclick="validasiFormKosong()">Validasi</button>
+        <p id="pesanValidasi9"></p>
+    </section>
+
+    <hr>
+    <!-- Eksperimen Mandiri 11: Sembunyikan / Tampilkan Elemen -->
+    <section>
+        <h3>Eksperimen Mandiri 11: Sembunyikan / Tampilkan Elemen HTML</h3>
+        <button type="button" onclick="toggleElemen()">Sembunyikan / Tampilkan Teks</button>
+        <p id="teksRahasia">Ini adalah elemen teks rahasia yang dapat disembunyikan atau dimunculkan kembali menggunakan tombol!</p>
+    </section>
+
+    <!-- Menghubungkan berkas JavaScript eksternal -->
+    <script src="script.js"></script>
+</body>
+</html>
